@@ -1,0 +1,36 @@
+body
+{
+    background-image: url("../imgs/marmore.jpg");
+}
+h1
+{
+    text-align: center;
+}
+#anima-div
+{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 0%;
+    animation: mov-div 10s infinite ;
+}
+@keyframes mov-div 
+{
+    0%{top: 0px;left: 0px;}
+    5%{top: 0px;left: 80px;}
+    10%{top: 150px;left: 80px;}
+    15%{top: 150px;left: 150px;}
+    20%{top: 300px;left: 150px;}
+    25%{top: 300px;left: 225px;}
+    30%{top: 445px;left: 225px;}
+    35%{top: 445px;left: 375px;}
+    40%{top: 520px;left: 375px;}
+    45%{top: 445px;left: 375px;}
+    50%{top: 445px;left: 225px;}
+    55%{top: 300px;left: 225px;}
+    60%{top: 300px;left: 150px;}
+    65%{top: 150px;left: 150px;}
+    70%{top: 150px;left: 80px;}
+    75%{top: 0px;left: 80px;}
+    80%{top: 0px;left: 0px;}
+}
